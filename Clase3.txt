@@ -57,6 +57,39 @@ git show md5 > index.html
 con esto puedo recuperarlo y modificar hacer un add
 
 
+*****************************************************************
+
+Git stash
+
+git stash save --include-untracked
+Para que lo guarde sino no esta comiteado
+
+**** 
+Git stash list
+para ver todo lo que esta que el stash
+
+Para recuperarlo
+
+git stash apply
+
+.....
+
+git stash clear para limpiar todo lo que esta en el stash
+
+
+****************************************************************
+
+
+Forma correcta
+
+git stash pop (usuarlo)
+
+
+Stash --> produce un dangluig commit --> o sea se puede recuperar si
+lo elimine 
+
+
+
 *******************************************************************
 
 
