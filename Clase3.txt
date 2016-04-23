@@ -41,6 +41,26 @@ Continue the operation in progress using the information in .git/sequencer. Can 
 
 *****************************************************************-*
 
+git revert head -m 1 --> para ir a algunos de los padres
+
+******************************************************************
+
+
+git fsck
+
+
+busca los add que se hicieron, no los commit, se hace lo siguiente
+
+
+git show md5 > index.html
+
+con esto puedo recuperarlo y modificar hacer un add
+
+
+*******************************************************************
+
+
+
 
 
 
