@@ -1,0 +1,21 @@
+Git by git bisec start
+
+*****************************************************
+
+GIT BLAME
+
+git blame para que se pueda ver el archivo
+con las lineas de modificaciones - Ultimos commit que afecto a la linea
+
+
+Git log <archivo>
+
+PAra saber los commit que se hicieron sobre el Archivo
+
+
+Log sin detalle
+Git log <Archivo>
+
+
+Con detalles
+Git log -p <Archivo>
