@@ -1,0 +1,112 @@
+Cuando se necesita saber cuando hay dos branch pero uno solo en si
+es con el signo ^ adelante niego que no sea vea ese brunch
+
+···· git log --oneline ^master clase3
+
+Podemos utilizar el siguiente comando para:
+
+$ git log --oneline master clase3 --not $(git merge-base master clase3)
+
+
+Cuando se quiere modificar ciertos intervalos de commit
+
+Cuando se quiere volver a un commit anterior o cuando hice un head
+se hace un git reflog -- puedo ver todo el contenido donde puedo ver 
+todos los head con sus md5
+
+reflog -> puedo ver el contenido global donde puedo ver el commit
+
+Para volver a un commit anterior
+
+
+-> git reset --hard sha1
+
+--------------------------------------------------------------------
+
+Git reset --soft
+
+Vuelvo para atras pero no elimino los git anteriores, eso hace que sea
+mas performace. 
+
+Ninguno de los dos, es recomendable porque se pierde el historial. 
+
+--------------------------------------------------------------------
+
+git revert --continue
+
+No se pierde el historial, sino que podemos:
+
+**** Explicacion ****
+Continue the operation in progress using the information in .git/sequencer. Can be used to continue after resolving conflicts in a failed cherry-pick or revert.
+
+*****************************************************************-*
+
+git revert head -m 1 --> para ir a algunos de los padres
+
+******************************************************************
+
+
+git fsck
+
+
+busca los add que se hicieron, no los commit, se hace lo siguiente
+
+
+git show md5 > index.html
+
+con esto puedo recuperarlo y modificar hacer un add
+
+
+*****************************************************************
+
+Git stash
+
+git stash save --include-untracked
+Para que lo guarde sino no esta comiteado
+
+**** 
+Git stash list
+para ver todo lo que esta que el stash
+
+Para recuperarlo
+
+git stash apply
+
+.....
+
+git stash clear para limpiar todo lo que esta en el stash
+
+
+****************************************************************
+
+
+Forma correcta
+
+git stash pop (usuarlo)
+
+
+Stash --> produce un dangluig commit --> o sea se puede recuperar si
+lo elimine 
+
+
+
+*******************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
