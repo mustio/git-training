@@ -1,0 +1,107 @@
+Git by git bisec start
+
+*****************************************************
+
+GIT BLAME
+
+git blame para que se pueda ver el archivo
+con las lineas de modificaciones - Ultimos commit que afecto a la linea
+
+
+Git log <archivo>
+
+PAra saber los commit que se hicieron sobre el Archivo
+
+
+Log sin detalle
+Git log <Archivo>
+
+
+Con detalles
+Git log -p <Archivo>
+
+REBASE
+
+con check repeat es mover un commit de un brunch a
+otro lugar
+
+
+-- git log --oneline master...viernes (obtengo el rango)
+
+--- git rebase master
+
+compara los archivos que hay en master y los trae 
+al brunch viernes
+
+--- fast forward ---> averiguar
+
+-- git reflog
+
+Podemos ver todos los commit (los que estan eliminados
+o los que estan)
+
+Buscar un archivo y eliminarlo (los buscamos en todo el repositorio - blob - tree - commit)
+
+git filter-branch --tree-filter 'rm -f page2.html' -f --prune-empty -- --all
+
+-----------------------------------------------------
+
+Gource.io
+
+Puedo ver la estructura git en Animacion
+
+
+-----------------------------------------------------
+
+Sh
+
+Gernero la llave publica y privada
+
+Git ssh
+
+Desde aqui... genero las llaves publicas y privadas
+
+y luego pego la llave publica en github
+
+------------------------------------------------------
+
+Amazon web service
+
+Podemos hacer nuestra propia infra ... (una locura)
+
+pai plan (buscar que signica)
+
+
+-----------------------------------------------------
+
+Rebase es importante! usarlo mucho
+
+
+
+
+
+
+
+------------------------------------------------------
+
+
+
+
+------------------------------------------------
+
+mfa  -- to stay verification
+
+Poner pass y key a las cuentas
+
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
